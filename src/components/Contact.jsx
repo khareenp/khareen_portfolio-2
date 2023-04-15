@@ -4,10 +4,6 @@ const Contact = () => {
   const contact_info = [
     { logo: "mail", text: "khareenp1@gmail.com" },
     { logo: "logo-whatsapp", text: "646 953 4323" },
-    {
-      logo: "location",
-      text: "demo location",
-    },
   ];
   return (
     <section id="contact" className="py-10 px-3 text-white">
