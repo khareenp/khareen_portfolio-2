@@ -23,7 +23,7 @@ const Project = () => {
     },
     {
       img: project3,
-      name: "Vue Country",
+      name: "Country App",
       github_link: "https://github.com/khareenp/countriesApp",
       live_link: "https://vuecountry05.netlify.app",
     },
