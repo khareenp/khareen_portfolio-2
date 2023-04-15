@@ -21,11 +21,14 @@ const About = () => {
                 The West Indies at Cave Hill in Barbados. Currently, I love to
                 work on web applications both design and development. This
                 includes all phases of the SDLC. I have approximately 3 years of
-                experience in developing web applications. Skilled at writing
-                clear, concise code that is easy to maintain and troubleshoot.
-                Experienced in working primarily in small teams across multiple
-                projects and companies. Able to work independently of remote
-                locations or in office environments as needed by the company.
+                experience in developing web applications.
+                <p>
+                  Skilled at writing clear, concise code that is easy to
+                  maintain and troubleshoot. Experienced in working primarily in
+                  small teams across multiple projects and companies. Able to
+                  work independently of remote locations or in office
+                  environments as needed by the company.
+                </p>
               </p>
 
               <div className="flex mt-10 items-center gap-7">
