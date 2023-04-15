@@ -7,7 +7,7 @@ export const SocialLinks = () => {
   const links = [
     {
       id: 1,
-      child: (
+      media: (
         <>
           LinkedIn
           <FaLinkedin size={30} />
@@ -18,7 +18,7 @@ export const SocialLinks = () => {
     },
     {
       id: 2,
-      child: (
+      media: (
         <>
           Github
           <FaGithub size={30} />
@@ -29,7 +29,7 @@ export const SocialLinks = () => {
     },
     {
       id: 3,
-      child: (
+      media: (
         <>
           Mail
           <HiOutlineMail size={30} />
@@ -40,7 +40,7 @@ export const SocialLinks = () => {
     },
     {
       id: 4,
-      child: (
+      media: (
         <>
           Resume
           <BsFillPersonLinesFill size={30} />
@@ -54,7 +54,7 @@ export const SocialLinks = () => {
   return (
     <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
       <ul>
-        {links.map(({ id, child, href, style, download }) => (
+        {links.map(({ id, media, href, style, download }) => (
           <li
             key={id}
             className={
@@ -70,7 +70,7 @@ export const SocialLinks = () => {
               target="_blank" //allow download new tab
               rel="noreferrer"
             >
-              {child}
+              {media}
             </a>
           </li>
         ))}
